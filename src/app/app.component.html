@@ -3,5 +3,6 @@
 </app-builder>
 
 <app-guardian-list
-  [guardians]="guardians">
+  [guardians]="guardians"
+  (sendToParent)="sendToParent($event)">
 </app-guardian-list>
