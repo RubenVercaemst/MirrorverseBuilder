@@ -223,7 +223,7 @@
   },
   {
     "name": "Buzz Lightyear",
-    "altname": "buzzlightyear",
+    "altname": "buzz-lightyear",
     "sub": "Prototypical Space Ranger",
     "class": "Ranged",
     "abilities": [
