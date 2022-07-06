@@ -9,6 +9,7 @@ import {HttpClient} from "@angular/common/http";
 export class AppComponent {
   title = 'MirrorverseBuilder';
   guardians: any = [];
+  selectedGuardians: any = [];
 
   constructor(private httpClient: HttpClient) { }
 
@@ -18,6 +19,11 @@ export class AppComponent {
       .subscribe(data => {
         console.log(data);
         this.guardians = data;
+
+        //temporary
+        this.selectedGuardians = this.guardians.slice(0,3);
+        //this.selectedGuardians = [this.guardians[0],[0],this.guardians[0]];
+        console.log(this.selectedGuardians);
       })
   }
 }
