@@ -19,16 +19,24 @@ export class AppComponent {
       .subscribe(data => {
         console.log(data);
         this.guardians = data;
-        /*//temporary
-        this.selectedGuardians = this.guardians.slice(0,3);
-        //this.selectedGuardians = [this.guardians[0],[0],this.guardians[0]];
-        console.log(this.selectedGuardians);*/
       })
   }
 
   sendToParent(guardian: any){
-    //dont push but adjust
-    this.selectedGuardians.push(guardian);
-    console.log("guardian: " + guardian);
+
+    //check for dupes
+    if(!this.selectedGuardians.find((x: any) => x === guardian)){
+      for (var index in this.selectedGuardians) {
+        if(this.selectedGuardians[index].length === 0){
+          console.log("null");
+          this.selectedGuardians[index] = guardian;
+          break;
+        }
+      }
+    } else {
+      console.log("dupe")
+    }
+
+
   }
 }

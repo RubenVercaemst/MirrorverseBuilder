@@ -7,7 +7,7 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 })
 export class GuardianListComponent implements OnInit {
 
-  selectedGuardians: any = [];
+  //selectedGuardians: any = [];
 
   @Input() guardians: any;
   @Output() sendToParent = new EventEmitter<any>();
