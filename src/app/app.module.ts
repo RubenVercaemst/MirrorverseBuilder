@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import { BuilderComponent } from './views/builder/builder.component';
 import { GuardianListComponent } from './views/guardian-list/guardian-list.component';
-import {FormsModule} from "@angular/forms";
-import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatSelectModule} from "@angular/material/select";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -15,12 +15,12 @@ import {MatFormFieldModule} from "@angular/material/form-field";
     BuilderComponent,
     GuardianListComponent
   ],
-    imports: [
-        BrowserModule,
-        HttpClientModule,
-        FormsModule,
-        MatFormFieldModule
-    ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    MatSelectModule,
+    BrowserAnimationsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

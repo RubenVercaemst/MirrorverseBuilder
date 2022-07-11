@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {map} from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,20 @@ export class AppComponent {
   ngOnInit(){
     //load json
     this.httpClient.get("assets/data.json")
+      .pipe(
+        map(res => {
+          if(!!res){
+            // @ts-ignore
+            return res.map(obj => {
+              return {
+                ...obj,
+                builderImage: `https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-${obj.altname}.png`,
+                listImage: `https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-${obj.altname}.png`
+              }
+            })
+          }
+        })
+      )
       .subscribe(data => {
         console.log(data);
         this.guardians = data;

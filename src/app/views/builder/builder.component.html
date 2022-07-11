@@ -1,7 +1,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div *ngFor="let guardian of selectedGuardians" class="col">
       <div class="card h-100">
-        <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-{{guardian.altname}}.png" class="card-img-top" alt="..."
+        <img src="{{guardian.builderImage}}" class="card-img-top" alt="..."
              (contextmenu)="removeSelectedGuardian(guardian)"
              (click)="detailsSelectedGuardian(guardian)">
         <div class="card-body text-center">
@@ -22,46 +22,10 @@
                       <h5 class="card-title">{{talent.talentname}}</h5>
                       <p class="card-text visually-hidden">{{talent.talentdescription}}</p>
                     </div>
-                  </div>
+                  </div>²
                 </div>
               </option>
             </select> -->
-
-            <mat-form-field appearance="fill">
-              <mat-label>Select an option</mat-label>
-              <mat-select [(value)]="selected">
-                <mat-option>None</mat-option>
-                <mat-option value="option1">Option 1</mat-option>
-                <mat-option value="option2">Option 2</mat-option>
-                <mat-option value="option3">Option 3</mat-option>
-              </mat-select>
-            </mat-form-field>
-
-          <p>You selected: {{selected}}</p>
-
-          <mat-form-field appearance="fill">
-            <mat-label>Select an option</mat-label>
-            <mat-select [(value)]="selected2">
-              <mat-option>None</mat-option>
-              <mat-option value="option1">Option 1</mat-option>
-              <mat-option value="option2">Option 2</mat-option>
-              <mat-option value="option3">Option 3</mat-option>
-            </mat-select>
-          </mat-form-field>
-
-          <p>You selected: {{selected2}}</p>
-
-          <mat-form-field appearance="fill">
-            <mat-label>Select an option</mat-label>
-            <mat-select [(value)]="selected">
-              <mat-option>None</mat-option>
-              <mat-option value="option1">Option 1</mat-option>
-              <mat-option value="option2">Option 2</mat-option>
-              <mat-option value="option3">Option 3</mat-option>
-            </mat-select>
-          </mat-form-field>
-
-          <p>You selected: {{selected}}</p>
 
             <select class="form-control" id="DropdownOptionsFirst">
               <option
@@ -94,3 +58,4 @@
     </div>
 
 </div>
+
