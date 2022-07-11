@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import { BuilderComponent } from './views/builder/builder.component';
 import { GuardianListComponent } from './views/guardian-list/guardian-list.component';
+import {FormsModule} from "@angular/forms";
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { GuardianListComponent } from './views/guardian-list/guardian-list.compo
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

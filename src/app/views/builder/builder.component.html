@@ -8,16 +8,43 @@
         <h5 class="card-title">{{guardian.name}}</h5>
         <h6 class="card-subtitle mb-2 text-muted">{{guardian.sub}}</h6>
         <p class="card-text">
-        <div *ngFor="let item of guardian.abilities">
+        <!--<div *ngFor="let item of guardian.abilities">
           {{item.abilitytype}}
-        </div>
-        <div class="card-footer">
-          <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-          <div class="dropdown">
+        </div>-->
+
+          <!--<select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option *ngFor="let talent of guardian.talents">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="https://disneymirrorverse.com/wp-content/uploads/talents/ref_{{guardian.altname | lowercase}}_{{talent.talentid}}.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">LEVEL {{talent.level}} | {{talent.rarity}}</h6>
+                    <h5 class="card-title">{{talent.talentname}}</h5>
+                    <p class="card-text visually-hidden">{{talent.talentdescription}}</p>
+                  </div>
+                </div>
+              </div>
+            </option>
+          </select> -->
+
+          <select class="form-control" id="DropdownOptions">
+            <option
+              *ngFor="let talent of guardian.talents"
+              [value]="talent"
+            >
+              {{ talent.talentname }}
+            </option>
+          </select>
+
+
+          <!--<div class="dropdown">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
             </a>
-
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li *ngFor="let talent of guardian.talents">
                 <a class="dropdown-item" href="#">
@@ -25,7 +52,7 @@
                     <div class="col-md-4">
                       <img src="https://disneymirrorverse.com/wp-content/uploads/talents/ref_{{guardian.altname | lowercase}}_{{talent.talentid}}.png" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col">
+                    <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title"></h5>
                         <h6 class="card-subtitle mb-2 text-muted">LEVEL {{talent.level}} | {{talent.rarity}}</h6>
@@ -34,7 +61,6 @@
                       </div>
                     </div>
                   </div>
-
                 </a>
               </li>
             </ul>
@@ -42,7 +68,7 @@
 
         </div>
       </div>
-    </div>
+    </div>-->
     <!-- <div class="col">
       <div class="card h-100">
         <img src="..." class="card-img-top" alt="...">
@@ -67,5 +93,7 @@
         </div>
       </div>
     </div> -->
+</div>
+    </div>
   </div>
 </div>

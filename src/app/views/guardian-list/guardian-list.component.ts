@@ -7,22 +7,16 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 })
 export class GuardianListComponent implements OnInit {
 
-  //selectedGuardians: any = [];
-
   @Input() guardians: any;
   @Output() sendToParent = new EventEmitter<any>();
 
   constructor() { }
 
   ngOnInit(): void {
-    //this.selectedGuardians = this.guardians.slice(0,3);
-    //this.selectedGuardians = [this.guardians[0],[0],this.guardians[0]];
-    //console.log(this.selectedGuardians);
-    //this.selectedGuardians = [this.guardians[0],this.guardians[0],this.guardians[0]]
   }
 
   editSelectedGuardians(guardian: any){
+    //send data to parent
     this.sendToParent.emit(guardian);
-    //console.log(guardian)
   }
 }

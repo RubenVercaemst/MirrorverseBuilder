@@ -23,20 +23,15 @@ export class AppComponent {
   }
 
   sendToParent(guardian: any){
-
     //check for dupes
     if(!this.selectedGuardians.find((x: any) => x === guardian)){
+      //fill first available empty spot
       for (var index in this.selectedGuardians) {
         if(this.selectedGuardians[index].length === 0){
-          console.log("null");
           this.selectedGuardians[index] = guardian;
           break;
         }
       }
-    } else {
-      console.log("dupe")
     }
-
-
   }
 }
