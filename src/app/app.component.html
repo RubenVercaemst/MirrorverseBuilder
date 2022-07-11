@@ -1,8 +1,12 @@
+<div class="row">
 <app-builder
   [selectedGuardians]="selectedGuardians">
 </app-builder>
+</div>
 
+  <div class="row">
 <app-guardian-list
   [guardians]="guardians"
   (sendToParent)="sendToParent($event)">
 </app-guardian-list>
+  </div>

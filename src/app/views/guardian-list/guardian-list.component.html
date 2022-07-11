@@ -2,11 +2,10 @@
   <div *ngFor="let guardian of guardians" class="col-auto">
     <div class="card bg-dark text-white">
       <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.altname}}.png" class="card-img" alt="...">
-      <div class="card-img-overlay">
+      <div class="card-img-overlay" (click)="editSelectedGuardians(guardian)">
         <h5 class="card-title">{{guardian.name}}</h5>
         <h6 class="card-subtitle mb-2 text-muted">{{guardian.sub}}</h6>
         <p class="card-text">{{guardian.class}}</p>
-        <button type="button" class="btn btn-primary" (click)="editSelectedGuardians(guardian)">addToBuilder</button>
       </div>
     </div>
   </div>
