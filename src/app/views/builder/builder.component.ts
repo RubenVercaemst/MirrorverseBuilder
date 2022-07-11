@@ -10,6 +10,8 @@ export class BuilderComponent implements OnInit {
   @Input() selectedGuardians: any;
 
   selectedTeam: any;
+  selected: any;
+  selected2: any;
 
   constructor() { }
 
