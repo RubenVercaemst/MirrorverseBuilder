@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {map} from "rxjs";
+import {GuardianService} from "./services/guardian.service";
 
 @Component({
   selector: 'app-root',
@@ -12,11 +11,21 @@ export class AppComponent {
   guardians: any = [];
   selectedGuardians: any = [[],[],[]];
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private guardianService: GuardianService) { }
 
   ngOnInit(){
+    this.guardianService.getAllGuardians()
+      .subscribe(data => {
+      console.log(data);
+    })
+
+    this.guardianService.getGuardianById('woody')
+      .subscribe(data => {
+        console.log(data);
+      })
+
     //load json
-    this.httpClient.get("assets/data.json")
+    /*this.httpClient.get("assets/data.json")
       .pipe(
         map(res => {
           if(!!res){
@@ -34,7 +43,7 @@ export class AppComponent {
       .subscribe(data => {
         console.log(data);
         this.guardians = data;
-      })
+      })*/
   }
 
   sendToParent(guardian: any){

@@ -74,6 +74,302 @@
     ]
   },
   {
+    "name": "Anger",
+    "altname": "anger",
+    "sub": "Fiery Arbiter of Justice",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Anna",
+    "altname": "anna",
+    "sub": "Ward of Arendelle",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Ariel",
+    "altname": "ariel",
+    "sub": "Royal Champion of Atlantica",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Baymax",
+    "altname": "ariel",
+    "sub": "Personal Battle Companion",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
     "name": "Baloo",
     "altname": "baloo",
     "sub": "Bold Pilot Fighter",
@@ -225,6 +521,2596 @@
     "name": "Buzz Lightyear",
     "altname": "buzz-lightyear",
     "sub": "Prototypical Space Ranger",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Captain Hook",
+    "altname": "ariel",
+    "sub": "Vainglorious Vengeful Swordsman",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Donald Duck",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Else",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Eve",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Evil Queen",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Frank Wolff",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Gaston",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Genie",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Goofy",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Hercules",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Hiro Hamada",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Ian Lightfoot",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Jack Sparrow",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Judy Hopps",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Maleficent",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Maui",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Merida",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Micky Mouse",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Mike Wazowski",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Minie Mouse",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Mr. Incredible",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Mulan",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Oogie Boogie",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Rapunzel",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Scar",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Scrooge McDuck",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Snow White",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Stitch",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Sulley",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Tiana",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Support",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Tinker Bell",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Tron",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Ranged",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Ursula",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Tank",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Woody",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
+    "class": "Melee",
+    "abilities": [
+      {
+        "abilitytype": "CORE",
+        "abilityname": "Razor Wind",
+        "abilitydescription":[
+          "When hitting an enemy that is not facing him, Aladdin inflicts a Wound dealing 25% Damage each second for 4 seconds. [Max Stacks: 3]",
+          "When Aladdin dashes through a Wounded enemy he delivers an additional basic hit, dealing 50% Damage."]
+      },
+      {
+        "abilitytype": "SPECIAL",
+        "abilityname": "Shrouded Sword",
+        "abilitydescription":[
+          "Aladdin deals 400% Damage to his current target and inflicts Knock Back.",
+          "Aladdin inflicts a Wound dealing 25% Damage each second for 8 seconds.",
+          "If the enemy is already Wounded, Aladdin also inflicts a Stun for 3 seconds."]
+      },
+      {
+        "abilitytype": "SIGNATURE",
+        "abilityname": "Thief Of Wonders",
+        "abilitydescription":[
+          "Aladdin has a 100% chance to Purge an Attribute Buff when dashing through a Wounded enemy.",
+          "If a Buff is Purged this way Aladdin gains a 50% Attack Buff for 6 seconds. [Max Stacks: 3]"]
+      }
+    ],
+    "talents": [
+      {
+        "talentid": "1",
+        "level": "12",
+        "rarity": "BASIC",
+        "talentname": "Cunning Moves",
+        "talentdescription": "Grants +20% Attack at the start of an encounter."
+      },
+      {
+        "talentid": "2",
+        "level": "15",
+        "rarity": "BASIC",
+        "talentname": "Hidden Strike",
+        "talentdescription": "Grants +20% Focus at the start of an encounter."
+      },
+      {
+        "talentid": "3",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Fine Edge",
+        "talentdescription": "Wounds inflicted by Aladdin last 4 second(s) longer."
+      },
+      {
+        "talentid": "4",
+        "level": "20",
+        "rarity": "ADVANCED",
+        "talentname": "Counter Strikes",
+        "talentdescription": "Aladdin deals an additional 50% Critical Damage when attacking an enemy activating a Heavy or Special Ability."
+      },
+      {
+        "talentid": "5",
+        "level": "25",
+        "rarity": "ADVANCED",
+        "talentname": "Skillful Maneuver",
+        "talentdescription": "When Aladdin dashes through a Wounded or Stunned enemy, he has a 100% chance to gain a 20% Focus Buff for 5 seconds. [Max Stacks: 1]"
+      },
+      {
+        "talentid": "6",
+        "level": "30",
+        "rarity": "ELITE",
+        "talentname": "Shadow in the Sand",
+        "talentdescription": "Aladdin’s Special Ability grants a Shadow Buff, greatly lowering the enemy's aggression towards Aladdin and granting their attacks a 50% chance to Miss for 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Zurg",
+    "altname": "ariel",
+    "sub": "Cantankerous Iron-Clad Sailor",
     "class": "Ranged",
     "abilities": [
       {
