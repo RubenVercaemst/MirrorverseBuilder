@@ -54,25 +54,23 @@ export class AppComponent {
       })*/
   }
 
-  fillSelectedGuardians(data: any){
+  sendToParent(guardian: any){
     //check for dupes
-    if(!this.selectedGuardians.find((x: any) => x === data)){
+    if(!this.selectedGuardians.find((x: any) => x.id === guardian.id)){
       //fill first available empty spot
       for (var index in this.selectedGuardians) {
         if(this.selectedGuardians[index].length === 0){
-          this.selectedGuardians[index] = data;
+          this.guardianService.getGuardianById(guardian.url)
+            .subscribe(data => {
+              console.log(data)
+              this.selectedGuardians[index] = data;
+            })
           break;
         }
       }
     }
   }
 
-  //getGuardianById(id: string){
-  sendToParent(guardian: any){
-    this.guardianService.getGuardianById(guardian)
-      .subscribe(data => {
-        console.log(data)
-        this.fillSelectedGuardians(data);
-      })
-  }
+  //fillSelectedGuardians(data: any){ }
+
 }
