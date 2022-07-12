@@ -54,26 +54,25 @@ export class AppComponent {
       })*/
   }
 
-  /*sendToParent(guardian: any){
+  fillSelectedGuardians(data: any){
     //check for dupes
-    if(!this.selectedGuardians.find((x: any) => x === guardian)){
+    if(!this.selectedGuardians.find((x: any) => x === data)){
       //fill first available empty spot
       for (var index in this.selectedGuardians) {
         if(this.selectedGuardians[index].length === 0){
-          //this.getGuardianById(guardian);
-          console.log(this.testGuardian);
-          //this.selectedGuardians[index] = data;
+          this.selectedGuardians[index] = data;
           break;
         }
       }
     }
-  }*/
+  }
 
   //getGuardianById(id: string){
   sendToParent(guardian: any){
     this.guardianService.getGuardianById(guardian)
       .subscribe(data => {
         console.log(data)
+        this.fillSelectedGuardians(data);
       })
   }
 }
