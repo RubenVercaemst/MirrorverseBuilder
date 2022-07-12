@@ -56,11 +56,20 @@ export class AppComponent {
 
   sendToParent(guardian: any){
     //check for dupes
+    console.log(guardian.id)
     if(!this.selectedGuardians.find((x: any) => x.id === guardian.id)){
       //fill first available empty spot
       for (var index in this.selectedGuardians) {
         if(this.selectedGuardians[index].length === 0){
           this.guardianService.getGuardianById(guardian.url)
+            .pipe(
+              map(res => {
+                return  {
+                    ...res,
+                    id: !!res.id.includes('_') ? res.id.replace('_','-') : res.id
+                  }
+              })
+            )
             .subscribe(data => {
               console.log(data)
               this.selectedGuardians[index] = data;
