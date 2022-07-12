@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {GuardianService} from "./services/guardian.service";
+import {map} from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -8,21 +9,32 @@ import {GuardianService} from "./services/guardian.service";
 })
 export class AppComponent {
   title = 'MirrorverseBuilder';
-  guardians: any = [];
+  guardianList: any;
   selectedGuardians: any = [[],[],[]];
 
   constructor(private guardianService: GuardianService) { }
 
   ngOnInit(){
     this.guardianService.getAllGuardians()
+      .pipe(
+        map(res => {
+          return res.guardians.map((obj: any) => {
+            return {
+              ...obj,
+              id: !!obj.id.includes('_') ? obj.id.replace('_','-') : obj.id
+            }
+          })
+        })
+      )
       .subscribe(data => {
       console.log(data);
+      this.guardianList = data;
     })
 
-    this.guardianService.getGuardianById('woody')
+    /*this.guardianService.getGuardianById('woody')
       .subscribe(data => {
         console.log(data);
-      })
+      })*/
 
     //load json
     /*this.httpClient.get("assets/data.json")

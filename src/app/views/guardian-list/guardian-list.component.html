@@ -1,10 +1,10 @@
 <div class="row justify-content-center">
-  <div *ngFor="let guardian of guardians" class="col-auto">
+  <div *ngFor="let guardian of guardianList" class="col-auto">
     <div class="card text-center bg-dark text-white">
-      <img src="{{guardian.listImage}}" class="card-img" alt="...">
+      <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" class="card-img" alt="...">
       <div class="card-img-overlay d-flex flex-column justify-content-end" (click)="editSelectedGuardians(guardian)">
         <h5 class="card-title">{{guardian.name}}</h5>
-        <h6 class="card-subtitle">{{guardian.sub}}</h6>
+        <h6 class="card-subtitle">{{guardian.bio}}</h6>
         <p class="card-text pt-2">{{guardian.class}}</p>
       </div>
     </div>
