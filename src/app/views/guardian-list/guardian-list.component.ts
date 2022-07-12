@@ -17,7 +17,6 @@ export class GuardianListComponent implements OnInit {
 
   editSelectedGuardians(guardian: any){
     //send data to parent
-    //this.sendToParent.emit(guardian);
-    console.log("editSelectedGuardians")
+    this.sendToParent.emit(guardian);
   }
 }

@@ -21,7 +21,8 @@ export class AppComponent {
           return res.guardians.map((obj: any) => {
             return {
               ...obj,
-              id: !!obj.id.includes('_') ? obj.id.replace('_','-') : obj.id
+              id: !!obj.id.includes('_') ? obj.id.replace('_','-') : obj.id,
+              url: obj.url.slice(11,-1)
             }
           })
         })
@@ -30,11 +31,6 @@ export class AppComponent {
       console.log(data);
       this.guardianList = data;
     })
-
-    /*this.guardianService.getGuardianById('woody')
-      .subscribe(data => {
-        console.log(data);
-      })*/
 
     //load json
     /*this.httpClient.get("assets/data.json")
@@ -58,16 +54,26 @@ export class AppComponent {
       })*/
   }
 
-  sendToParent(guardian: any){
+  /*sendToParent(guardian: any){
     //check for dupes
     if(!this.selectedGuardians.find((x: any) => x === guardian)){
       //fill first available empty spot
       for (var index in this.selectedGuardians) {
         if(this.selectedGuardians[index].length === 0){
-          this.selectedGuardians[index] = guardian;
+          //this.getGuardianById(guardian);
+          console.log(this.testGuardian);
+          //this.selectedGuardians[index] = data;
           break;
         }
       }
     }
+  }*/
+
+  //getGuardianById(id: string){
+  sendToParent(guardian: any){
+    this.guardianService.getGuardianById(guardian)
+      .subscribe(data => {
+        console.log(data)
+      })
   }
 }
