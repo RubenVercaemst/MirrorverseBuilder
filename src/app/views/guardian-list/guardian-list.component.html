@@ -1,6 +1,6 @@
-<div class="flex flex-wrap gap-4">
+<div class="flex flex-wrap gap-4 justify-center">
 <!--<div class="grid grid-cols-6 gap-4 content-center">-->
- <div *ngFor="let guardian of guardianList" class="card bg-base-100 shadow-xl image-full flex-auto" (click)="editSelectedGuardians(guardian)">
+ <div *ngFor="let guardian of guardianList" class="card bg-base-100 shadow-xl image-full flex-auto max-w-[176px]" (click)="editSelectedGuardians(guardian)">
       <figure>
         <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" alt="...">
       </figure>
