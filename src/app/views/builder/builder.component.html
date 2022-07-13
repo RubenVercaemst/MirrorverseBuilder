@@ -64,20 +64,17 @@
 <div class="grid grid-cols-3 gap-4 content-center">
   <div *ngFor="let guardian of selectedGuardians" class="card bg-base-100 shadow-xl">
     <figure>
-      <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-woody.png" alt="..."
+      <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-{{guardian.id}}.png" alt="..."
            (contextmenu)="removeSelectedGuardian(guardian)"
            (click)="detailsSelectedGuardian(guardian)">
-      <!--<img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-{{guardian.id}}.png" alt="..."
-           (contextmenu)="removeSelectedGuardian(guardian)"
-           (click)="detailsSelectedGuardian(guardian)">-->
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title">
-        {{guardian.name}}aaa
+        {{guardian.name}}
       </h2>
-      <p>{{guardian.bio}}bbb</p>
+      <p>{{guardian.bio}}</p>
       <div class="card-actions">
-        <div class="badge badge-outline">{{guardian.class}}ccc</div>
+        <div class="badge badge-outline">{{guardian.class}}</div>
       </div>
     </div>
   </div>
