@@ -1,4 +1,4 @@
-<div class="row row-cols-1 row-cols-md-3 g-4">
+<!--<div class="row row-cols-1 row-cols-md-3 g-4">
   <div *ngFor="let guardian of selectedGuardians" class="col">
       <div class="card h-100">
         <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-{{guardian.id}}.png" class="card-img-top" alt="..."
@@ -7,7 +7,7 @@
         <div class="card-body text-center">
           <h5 class="card-title">{{guardian.name}}</h5>
           <h6 class="card-subtitle mb-2 text-muted">{{guardian.bio}}</h6>
-          <p class="card-text">
+          <p class="card-text">-->
             <!--<select class="form-select" aria-label="Default select example">
               <option selected>Open this select menu</option>
               <option *ngFor="let talent of guardian.talents">
@@ -27,7 +27,7 @@
               </option>
             </select> -->
 
-            <select class="form-control" id="DropdownOptionsFirst">
+            <!--<select class="form-control" id="DropdownOptionsFirst">
               <option
                 *ngFor="let talent of guardian.talents"
                 [value]="talent"
@@ -59,3 +59,26 @@
 
 </div>
 
+-->
+
+<div class="grid grid-cols-3 gap-4 content-center">
+  <div *ngFor="let guardian of selectedGuardians" class="card bg-base-100 shadow-xl">
+    <figure>
+      <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-woody.png" alt="..."
+           (contextmenu)="removeSelectedGuardian(guardian)"
+           (click)="detailsSelectedGuardian(guardian)">
+      <!--<img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-featured-{{guardian.id}}.png" alt="..."
+           (contextmenu)="removeSelectedGuardian(guardian)"
+           (click)="detailsSelectedGuardian(guardian)">-->
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">
+        {{guardian.name}}aaa
+      </h2>
+      <p>{{guardian.bio}}bbb</p>
+      <div class="card-actions">
+        <div class="badge badge-outline">{{guardian.class}}ccc</div>
+      </div>
+    </div>
+  </div>
+</div>
