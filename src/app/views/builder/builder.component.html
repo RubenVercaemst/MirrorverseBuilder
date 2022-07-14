@@ -77,6 +77,30 @@
       <div class="card-actions">
         <div class="badge badge-outline">{{guardian.class}}</div>
       </div>
+      <div class="dropdown dropdown-hover">
+        <label tabindex="0" class="btn m-1">{{guardian.class}}</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" *ngFor="let talent of guardian.talents">
+          <li (click)="testclick(talent, guardian)"><a>{{talent.title}}</a></li>
+        </ul>
+      </div>
+
+      <!--<div *ngFor="let selectedTalent of selectedTalents">
+        <div class="card card-side bg-base-100 shadow-xl">
+          <figure>
+              <div class="w-12 rounded-full">
+                <img src="https://disneymirrorverse.com/wp-content/uploads/talents/{{selectedTalent.image}}.png"  alt=""/>
+              </div>
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">{{selectedTalent.title}}</h2>
+            <h2 class="card-title">Level {{selectedTalent.level}} | {{selectedTalent.rarity}}</h2>
+            <p *ngFor="let descr of selectedTalent.description">
+              {{descr}}
+            </p>
+          </div>
+        </div>
+      </div> -->
+
     </div>
   </div>
 </div>
