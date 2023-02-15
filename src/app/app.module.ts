@@ -3,23 +3,35 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
-import { BuilderComponent } from './views/builder/builder.component';
-import { GuardianListComponent } from './views/guardian-list/guardian-list.component';
+import { BuilderComponent } from './builder/ui/builder/builder.component';
+import { GuardianListComponent } from './builder/ui/guardian-list/guardian-list.component';
 import {MatSelectModule} from "@angular/material/select";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { HomeComponent } from './home/feature/home/home.component';
 
+import { RouterModule, Routes} from '@angular/router';
+import { BuilderDashboardComponent } from './builder/feature/builder-dashboard.component';
+
+const routes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: 'builder', component: BuilderDashboardComponent }
+];
 
 @NgModule({
   declarations: [
     AppComponent,
     BuilderComponent,
-    GuardianListComponent
+    GuardianListComponent,
+    HomeComponent,
+    BuilderDashboardComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     MatSelectModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

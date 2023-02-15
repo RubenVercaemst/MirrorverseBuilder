@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
+import {GuardianList} from "./interfaces/GuardianList";
+import {Guardian} from "./interfaces/Guardian";
 
 @Injectable({
   providedIn: 'root'
@@ -11,12 +13,12 @@ export class GuardianService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getAllGuardians(): Observable<any> {
-    return this.httpClient.get(this.guardianUrl + 'guardians');
+  getAllGuardians(): Observable<GuardianList> {
+    return this.httpClient.get<GuardianList>(this.guardianUrl + 'guardians');
   }
 
-  getGuardianById(guardian_id: string): Observable<any> {
-    return this.httpClient.get(this.guardianUrl + 'guardian/?id=' + guardian_id);
+  getGuardianById(guardian_id: string): Observable<Guardian> {
+    return this.httpClient.get<Guardian>(this.guardianUrl + 'guardian/?id=' + guardian_id);
   }
 }
 

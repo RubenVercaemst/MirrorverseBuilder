@@ -1,17 +1,1 @@
-<div class="grid grid-flow-row auto-rows-max">
-  <div class="text-center py-12">
-    <h1 class="text-5xl font-bold">Mirrorverse Teambuilder</h1>
-  </div>
-  <div class="bg-amber-100 p-4">
-    <app-builder
-      [selectedGuardians]="selectedGuardians">
-    </app-builder>
-  </div>
-  <div class="divider"></div>
-  <div class="bg-pink-200 p-4">
-    <app-guardian-list
-      [guardianList]="guardianList"
-      (sendToParent)="sendToParent($event)">
-    </app-guardian-list>
-  </div>
-</div>
+<router-outlet></router-outlet>

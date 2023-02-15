@@ -1,0 +1,16 @@
+<div *ngFor="let guardian of teamBuild" (click)="deSelectedGuardian(teamBuild.indexOf(guardian))">
+  <div *ngIf="guardian !== undefined">
+    <figure>
+      <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" alt="...">
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title text-white">
+        {{guardian.name}}
+      </h2>
+      <p>{{guardian.bio}}</p>
+      <div class="card-actions">
+        <div class="badge badge-outline">{{guardian.class}}</div>
+      </div>
+    </div>
+  </div>
+</div>
