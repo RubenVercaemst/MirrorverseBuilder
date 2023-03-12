@@ -1,16 +1,7 @@
-<div class="flex flex-wrap gap-4 justify-center">
-<div *ngFor="let guardian of guardianList" class="card bg-base-100 shadow-xl image-full flex-auto max-w-[176px]" (click)="selectedGuardian(guardian)">
-    <figure>
-      <img src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" alt="...">
-    </figure>
-  <div class="card-body items-center text-center">
-    <h2 class="card-title text-white">
-      {{guardian.name}}
-    </h2>
-    <p>{{guardian.bio}}</p>
-    <div class="card-actions">
-      <div class="badge badge-outline">{{guardian.class}}</div>
+<div class="flex flex-wrap gap-2 justify-center">
+  <div *ngFor="let guardian of guardianList" (click)="selectedGuardian(guardian)">
+    <div (click)="selectedGuardian(guardian)" class="p-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <img class="rounded-t-lg md:h-32 md:w-32 object-cover" src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" alt="" />
     </div>
-  </div>
   </div>
 </div>
