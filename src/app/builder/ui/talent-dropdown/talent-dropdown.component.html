@@ -1,0 +1,22 @@
+<button class="w-16 h-16 mr-2 rounded-full" (click)="toggleDropdown()"
+    *ngIf="selectedOption !== undefined; else unselected">
+    <img [ngStyle]="{ 'position': 'relative' }" (mouseover)="showTooltip = true" (mouseout)="showTooltip = false" class="w-16 h-16 mr-2 rounded-full" src="https://disneymirrorverse.com/wp-content/uploads/talents/{{selectedOption.image}}.png" alt="{{selectedOption.title}}">
+    <div *ngIf="showTooltip" class="tooltip">{{selectedOption.title}}</div>
+</button>
+
+<ng-template #unselected>
+  <button class="w-16 h-16 mr-2 rounded-full" (click)="toggleDropdown()">o</button>
+</ng-template>
+
+<div *ngIf="showDropdown" class="bg-white rounded-lg shadow w-60 dark:bg-gray-700">
+  <ul class="py-2 text-gray-700 dark:text-gray-200">
+    <li *ngFor="let talent of talents | filterSelected" (click)="selectOption(talent)">
+      <a class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+        <img class="w-6 h-6 mr-2 rounded-full" src="https://disneymirrorverse.com/wp-content/uploads/talents/{{talent.image}}.png" alt="{{talent.title}}">
+        {{talent.title}}
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- https://disneymirrorverse.com/wp-content/uploads/talents/ref_moana_6.png "ref_alice_5" -->

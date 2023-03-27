@@ -12,6 +12,11 @@ export class BuilderComponent {
   deSelectedGuardian(valueArrayIndex: number){
     this.deSelectedGuardianEvent.emit(valueArrayIndex);
   }
+
+  handleOptionSelected(any: any){
+    any.selected = true;
+    console.log(any);
+  }
 }
 
 
