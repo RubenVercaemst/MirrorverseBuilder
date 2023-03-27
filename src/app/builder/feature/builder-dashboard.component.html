@@ -1,0 +1,14 @@
+<div class="mt-5">
+  <app-builder
+    [teamBuild]="teamBuild"
+    (deSelectedGuardianEvent)="removeFromTeamBuild($event)">
+  </app-builder>
+</div>
+
+<hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+
+<app-guardian-list
+  [guardianList]="guardianList"
+  (selectedGuardianEvent)="addGuardianToBuilder($event)">
+</app-guardian-list>
+

@@ -20,9 +20,22 @@
         <hr class="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700">
 
         <div class="flex flex-wrap flex-row justify-center content-center px-2 h-20">
+          <app-talent-dropdown
+            [talents]="guardian.talents"
+            (optionSelected)="handleOptionSelected($event)">
+          </app-talent-dropdown>
+          <app-talent-dropdown
+            [talents]="guardian.talents"
+            (optionSelected)="handleOptionSelected($event)">
+          </app-talent-dropdown>
+          <app-talent-dropdown
+            [talents]="guardian.talents"
+            (optionSelected)="handleOptionSelected($event)">
+          </app-talent-dropdown>
+
+          <!--<img class="w-14 h-14 mx-1 rounded-full shadow-md" alt=""/>
           <img class="w-14 h-14 mx-1 rounded-full shadow-md" alt=""/>
-          <img class="w-14 h-14 mx-1 rounded-full shadow-md" alt=""/>
-          <img class="w-14 h-14 mx-1 rounded-full shadow-md" alt=""/>
+          <img class="w-14 h-14 mx-1 rounded-full shadow-md" alt=""/>-->
         </div>
 
       </div>

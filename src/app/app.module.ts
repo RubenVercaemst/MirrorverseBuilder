@@ -11,6 +11,8 @@ import { HomeComponent } from './home/feature/home/home.component';
 
 import { RouterModule, Routes} from '@angular/router';
 import { BuilderDashboardComponent } from './builder/feature/builder-dashboard.component';
+import { TalentDropdownComponent } from './builder/ui/talent-dropdown/talent-dropdown.component';
+import { FilterSelectedPipe } from './builder/utils/filter-selected.pipe';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -24,7 +26,9 @@ const routes: Routes = [
     BuilderComponent,
     GuardianListComponent,
     HomeComponent,
-    BuilderDashboardComponent
+    BuilderDashboardComponent,
+    TalentDropdownComponent,
+    FilterSelectedPipe
   ],
   imports: [
     BrowserModule,
