@@ -13,6 +13,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { BuilderDashboardComponent } from './builder/feature/builder-dashboard.component';
 import { TalentDropdownComponent } from './builder/ui/talent-dropdown/talent-dropdown.component';
 import { FilterSelectedPipe } from './builder/utils/filter-selected.pipe';
+import { FilterGuardiansComponent } from './builder/ui/filter-guardians/filter-guardians.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -28,7 +29,8 @@ const routes: Routes = [
     HomeComponent,
     BuilderDashboardComponent,
     TalentDropdownComponent,
-    FilterSelectedPipe
+    FilterSelectedPipe,
+    FilterGuardiansComponent
   ],
   imports: [
     BrowserModule,

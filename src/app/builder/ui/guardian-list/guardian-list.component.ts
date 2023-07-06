@@ -4,9 +4,9 @@ import {GuardianDisplay} from "../../data-access/interfaces/GuardianDisplay";
 @Component({
   selector: 'app-guardian-list',
   templateUrl: './guardian-list.component.html',
-  styleUrls: ['./guardian-list.component.css']
+  styleUrls: ['./guardian-list.component.css'],
 })
-export class GuardianListComponent{
+export class GuardianListComponent {
   @Input() guardianList: any;
   @Output() selectedGuardianEvent = new EventEmitter<GuardianDisplay>();
 

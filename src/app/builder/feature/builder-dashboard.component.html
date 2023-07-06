@@ -6,9 +6,12 @@
 </div>
 
 <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+<app-filter-guardians
+(filterGuardianEvent)="filterGuardianList($event)">
+</app-filter-guardians>
 
 <app-guardian-list
-  [guardianList]="guardianList"
+  [guardianList]="filteredGuardianList"
   (selectedGuardianEvent)="addGuardianToBuilder($event)">
 </app-guardian-list>
 
