@@ -15,6 +15,8 @@ import { TalentDropdownComponent } from './builder/ui/talent-dropdown/talent-dro
 import { FilterSelectedPipe } from './builder/utils/filter-selected.pipe';
 import { FilterGuardiansComponent } from './builder/ui/filter-guardians/filter-guardians.component';
 
+import { FormsModule } from '@angular/forms';
+
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -30,16 +32,17 @@ const routes: Routes = [
     BuilderDashboardComponent,
     TalentDropdownComponent,
     FilterSelectedPipe,
-    FilterGuardiansComponent
+    FilterGuardiansComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     MatSelectModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

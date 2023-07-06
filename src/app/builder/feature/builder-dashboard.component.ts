@@ -13,6 +13,8 @@ export class BuilderDashboardComponent implements OnInit {
   title = 'MirrorverseBuilder';
   guardianList: any;
   filteredGuardianList: any;
+  searchByString: string = '';
+  searchByClasses: string[] = ['melee', 'support', 'ranged', 'tank'];
 
   teamBuild: [Guardian?, Guardian?, Guardian?] = [
     undefined,
@@ -39,9 +41,10 @@ export class BuilderDashboardComponent implements OnInit {
         first()
       )
       .subscribe({
-        next: (data) => (this.guardianList = data, this.filteredGuardianList = data),
+        next: (data) => (
+          (this.guardianList = data), (this.filteredGuardianList = data)
+        ),
         error: (error) => console.error(error),
-        complete: () => console.log('Observable completed'),
       });
   }
 
@@ -66,13 +69,25 @@ export class BuilderDashboardComponent implements OnInit {
       .subscribe({
         next: (data) => this.addToTeamBuild(data),
         error: (error) => console.error(error),
-        complete: () => console.log('Observable completed'),
       });
   }
 
-  filterGuardianList(search: string){
-    console.log(search);
-    this.filteredGuardianList = this.guardianList.filter((g: Guardian) => g.name.toLowerCase().includes(search))
+  filterByString(string: string) {
+    this.searchByString = string;
+    this.filterGuardianList();
+  }
+
+  filterByClasses(classes: any) {
+    this.searchByClasses = classes;
+    this.filterGuardianList();
+  }
+
+  filterGuardianList() {
+    this.filteredGuardianList = this.guardianList.filter(
+      (g: Guardian) =>
+        this.searchByClasses.includes(g.class.toLowerCase()) &&
+        g.name.toLowerCase().includes(this.searchByString)
+    );
   }
 
   addToTeamBuild(guardian: Guardian) {

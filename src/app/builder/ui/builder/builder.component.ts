@@ -15,7 +15,6 @@ export class BuilderComponent {
 
   handleOptionSelected(any: any){
     any.selected = true;
-    console.log(any);
   }
 }
 
