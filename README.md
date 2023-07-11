@@ -2,7 +2,7 @@
   <h3 align="center">MirrorverseBuilder</h3>
 
   <p align="center">
-    This project is currently being worked on.
+    <a href="https://mirrorversebuilder.web.app/"><strong>» View the live website »</strong></a>
   </p>
 </p>
 
@@ -14,4 +14,9 @@ A web app that allows you to create your Disney Mirrorverse teams, select their 
 
 * Angular
 * Tailwind CSS
-* DaisyUI
+* Flowbite
+
+## TODO
+* Add class icon to guardian list
+* Selected talents should not appear in the dropdowns
+* Add share feature
