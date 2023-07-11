@@ -1,7 +1,7 @@
 <div class="flex flex-wrap gap-2 justify-center">
   <div *ngFor="let guardian of guardianList" (click)="selectedGuardian(guardian)">
     <div class="p-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <img class="rounded-t-lg md:h-32 md:w-32 object-cover" src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" alt="" />
+      <img class="rounded-lg md:h-32 md:w-32 object-cover" src="https://disneymirrorverse.com/wp-content/uploads/portraits/portrait-{{guardian.id}}.png" alt="" />
     </div>
     <p class="truncate pt-0.5 pb-2 text-center font-normal text-gray-700 dark:text-gray-400">{{guardian.name}}</p>
   </div>
