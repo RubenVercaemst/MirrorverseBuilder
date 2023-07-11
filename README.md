@@ -16,7 +16,7 @@ A web app that allows you to create your Disney Mirrorverse teams, select their 
 * Tailwind CSS
 * Flowbite
 
-## TODO
+### TODO
 * Add class icon to guardian list
 * Selected talents should not appear in the dropdowns
 * Add share feature
